@@ -1,0 +1,76 @@
+theme = "hugo-assembly"
+baseURL = "https://hightechamish.com"
+languageCode = "en-US"
+title = "High Tech Amish"
+
+# Metadata
+[params]
+  author = "Aaron Yoder"
+  description = "High Tech Amish LLC"
+
+# banner section (from here on is for assembly theme)
+[params.banner]
+  title = "Expert in IT Services"
+  byline = "I can help with all your IT needs."
+
+[params.actions] # CTAs
+  enable = true
+  register = "CTA Now!"
+
+# Navigation section
+[params.nav]
+  home = "Home"
+  services = "Services"
+  welcome = "About Me"
+  contact = "Contact Me"
+
+# Services section
+[params.services]
+  enable = true
+  title = "Services"
+  subtitle = "I offer a wide variety of IT services."
+
+  [[params.services.item]]
+    weight = "A"
+    name = "Website Creation and Maintenance"
+    description = "I can help you setup a business website to gain a bigger customer base. I can maintain the site by adding any changes you need and keeping it up to date and secure."
+#    button_item_info = "Safer"
+
+  [[params.services.item]]
+    weight = "B"
+    name = "Scripts and Automation"
+    description = "I can create a script to automate a repetitive or tedious task. It’ll save you time and your sanity."
+#    button_item_info = "Faster"
+
+  [[params.services.item]]
+    weight = "C"
+    name = "Hardware and Software Troubleshooting"
+    description = "I work with computers, laptops, printers, and more to fix any issue you’re having with them. Anything from viruses to the device not turning on."
+#    button_item_info = "Smarter"
+
+# Welcome section
+[params.welcome]
+  enable = true
+  title = "High Tech Amish"
+  subtitle = "Owned and operated by Aaron Yoder"
+  description = "I’ve been in the IT field for the past 8 years working in a wide array of environments. I incorporate scripting into my daily work to automate repetitive tasks. I’ve used Python, PowerShell, and Bash scripting. I’ve setup and maintained virtual infrastructure with VMWare vSphere, oVirt, and HyperV. I’ve worked with various patch management and asset management software including PDQ, LanSweeper, and Shavlick. I’m a quick learner and hard worker."
+#  button_text = "Call Now"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+[params.footer]
+  enable = true
+  copy = "2022 &copy; High Tech Amish LLC | All rights reserved"
+  twitter = ""
+  facebook = ""
+  instagram = ""
+
